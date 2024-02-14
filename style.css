@@ -35,3 +35,42 @@ ul {
 a {
     color: #e5e7eb;
 }
+
+.content {
+    display: flex;
+    /* justify-content: center; */
+    flex-flow: column;
+    width: 400px;
+    gap: 16px;
+    padding: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    gap: 1px;
+    padding: 16px;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header-subtext {
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px 24px;
+}
+
+
+
+img {
+    width: 200px;
+}
