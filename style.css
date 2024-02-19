@@ -5,7 +5,10 @@ body {
 .header-container {
     background-color: #1f2937;
     color: #f9faf8;
-    /* display: flex; */
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    gap: 100px;
 }
 
 .hero-container {
@@ -23,7 +26,7 @@ body {
 
 .links {
     display: flex;
-    gap: 16px;
+    gap: 20px;
 }
 
 ul {
@@ -38,18 +41,18 @@ a {
 
 .content {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     flex-flow: column;
-    width: 400px;
-    gap: 16px;
-    padding: 16px;
+    width: 410px;
+    gap: 8px;
+    /* padding: 16px; */
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
-    gap: 1px;
-    padding: 16px;
+    justify-content: center;
+    gap: 200px;
+    width: 1000x;
 }
 
 .header-title {
@@ -72,5 +75,6 @@ button {
 
 
 img {
-    width: 200px;
+
+    width: 420px;
 }
