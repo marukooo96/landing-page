@@ -51,7 +51,7 @@ a {
 .header {
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 180px;
     width: 1000x;
 }
 
@@ -76,5 +76,5 @@ button {
 
 img {
 
-    width: 420px;
+    width: 450px;
 }
