@@ -94,31 +94,17 @@ img {
 
 .info-row {
     display: flex;
-    justify-content: space-between;
-}
-
-.info-box-column {
-    display: flex;
-    justify-content: space-between;
-    /* flex-flow: column; */
-    width: 150px;
+    justify-content: space-around;
 }
 
 .info-box {
     display: flex;
     flex-flow: column;
-} 
-
-.info-img {
-    display: flex;
-    width: 150px;
-    border-color: #3882f6;
-    background-color: #3882f6;
-    padding: 2px;
-    border-radius: 10px;
+    width: 100px;
 }
 
-.info-text {
-    display: flex;
+.info-img {
+    width: 120px;
+    border-radius: 10px;
 }
 
