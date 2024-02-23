@@ -1,1 +1,1 @@
-Picture by satheeshsankaran downloaded from Pixabay
+Header picture by satheeshsankaran downloaded from Pixabay
