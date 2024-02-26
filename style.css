@@ -122,13 +122,24 @@ img {
 .quote {
     background-color: #e5e7eb;
     font-size: 36px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    /* width: 1600px; */
+    flex-grow: 1;
 }
 
 .quote-text {
     font-style: italic;
+    color: #1f2937;
+    display: flex;
+    width: 800px;
+    align-self: center;
 }
 
 .quote-author{
     font-weight: 700;
+    display: flex;
+    align-self: center;
 }
 
