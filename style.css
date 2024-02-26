@@ -133,6 +133,7 @@ img {
     font-style: italic;
     color: #1f2937;
     display: flex;
+    flex-flow: column;
     width: 800px;
     align-self: center;
 }
@@ -140,6 +141,6 @@ img {
 .quote-author{
     font-weight: 700;
     display: flex;
-    align-self: center;
+    align-self: flex-end;
 }
 
