@@ -82,7 +82,7 @@ img {
 .info {
     display: flex;
     flex-flow: column;
-    gap: 60px;
+    gap: 40px;
 }
 
 .info-title {
@@ -117,5 +117,18 @@ img {
     text-align: center;
     display: flex;
     justify-content: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+}
+
+.quote-text {
+    font-style: italic;
+}
+
+.quote-author{
+    font-weight: 700;
 }
 
