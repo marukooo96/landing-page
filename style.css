@@ -127,6 +127,7 @@ img {
     justify-content: center;
     /* width: 1600px; */
     flex-grow: 1;
+    padding: 120px;
 }
 
 .quote-text {
@@ -139,8 +140,10 @@ img {
 }
 
 .quote-author{
+    font-style: normal;
     font-weight: 700;
     display: flex;
     align-self: flex-end;
+    margin-right: 16px;
 }
 
